@@ -52,7 +52,9 @@ const fruits = [
 //    status-message | statusMessageElement
 //
 // ✏️ Skriv dine tre variabler her ↓
-
+const fruitListElement = document.getElementById("fruit-list");
+const toggleButtonElement = document.getElementById("toggle-fruits");
+const statusMessageElement = document.getElementById("status-message");
 
 // ------------------------------------------------------------
 // STEP 3: Byg frugtlisten med forEach og template literals
